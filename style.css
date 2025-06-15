@@ -1,9 +1,10 @@
 /* id */
 
 #title {
-  background: #36d97d;
   background: radial-gradient(circle, rgba(54, 217, 125, 1) 0%, rgba(148, 187, 233, 1) 100%);
   position: relative;
+  width: 100%;
+  box-shadow: 1px 1px 10px;
 }
 
 #about-me {
@@ -29,10 +30,10 @@
 
 #footer {
   width: 100%;
-  background: #36d97d;
   background: radial-gradient(circle, rgba(54, 217, 125, 1) 0%, rgba(148, 187, 233, 1) 100%);
   position: relative;
   padding: 2.5rem;
+  box-shadow: 1px 1px 10px;
 }
 
 /* class */
@@ -58,17 +59,17 @@
   background: linear-gradient(45deg, #00c9ff, #92fe9d);
   font-family: "Quicksand", sans-serif;
   font-size: 1.2rem;
-  font-weight: 600;
+  font-weight: 500;
   padding: 10px 15px;
   border-radius: 5px;
-  box-shadow: 0.2rem 0 0.5rem;
+  box-shadow: 1px 2px 5px -2px;
 }
 
 .btn-title:hover {
   filter: brightness(1.1);
   transform: translateY(-2px);
   cursor: pointer;
-  box-shadow: 0 0 5px;
+  box-shadow: 1px 1px 5px -2px;
 }
 
 .title-header {
@@ -156,14 +157,14 @@
   font-weight: 600;
   padding: 10px 15px;
   border-radius: 6%;
-  box-shadow: 0.2rem 0 0.5rem;
+  box-shadow: 1px 2px 5px -2px;
 }
 
 .btn-contact:hover {
   filter: brightness(1.1);
   transform: translateY(-2px);
   cursor: pointer;
-  box-shadow: 0 0 5px;
+  box-shadow: 1px 1px 5px -2px;
 }
 
 .contact-icons {
@@ -175,7 +176,6 @@
 body {
   margin: 0;
   font-family: "IBM Plex Serif", serif;
-  overflow-x: hidden;
 }
 
 h2 {
@@ -200,7 +200,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: #94bbe9;
+  color: #677e99;
 }
 
 /* combines */
